@@ -1,0 +1,15 @@
+components:
+  parameters: null
+  schemas:
+    Product:
+      type: object
+      required:
+        - _id
+        - name
+      properties:
+        _id:
+          type: number
+          description: id
+        name:
+          type: string
+          description: 제품 이름
